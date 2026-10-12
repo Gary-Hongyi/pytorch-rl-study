@@ -1,0 +1,18 @@
+import torch
+
+w = torch.tensor(5.0,requires_grad=True)
+
+optimizer = torch.optim.SGD([w],lr = 0.1)
+
+for i in range(10):
+    loss = (w-3)**2
+    optimizer.zero_grad()
+    loss.backward()
+    optimizer.step()
+    print(f"This is round{i+1},w={w},loss={loss} ")
+
+
+
+
+
+

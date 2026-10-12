@@ -1,0 +1,27 @@
+import torch
+import torch.nn as nn
+
+layer = nn.Linear(2,1)
+
+with torch.no_grad():
+    layer.weight.copy_(torch.tensor([[1.0,1.0]]))
+    layer.bias.copy_(torch.tensor([0.0]))
+
+x = torch.tensor([2.0,3.0])
+
+target = torch.tensor([20.0])
+
+optimizer = torch.optim.SGD(layer.parameters(),lr=0.02)
+
+for i in range(10):
+    optimizer.zero_grad()
+    y = layer(x)
+    loss = (y-target)**2
+    loss.backward()
+    optimizer.step()
+    if (i + 1) % 2 == 0:
+        print(f"round {i+1}, y={y.item():.4f}, loss={loss.item():.4f}")
+
+print(layer.weight)
+print(layer.bias)
+

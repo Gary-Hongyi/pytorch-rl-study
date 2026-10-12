@@ -1,0 +1,45 @@
+# Downloaded datasets; keep the data documentation.
+/data/*
+!/data/README.md
+**/data/MNIST/
+
+# Machine-specific editor settings and Python environments/caches.
+.vscode/
+.idea/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Generated models; explicitly retain the two historical checkpoints.
+*.pth
+*.pt
+*.ckpt
+!/02_deep_learning/03_mnist_mlp/artifacts/checkpoints/from_pytorch_dir/mnist_model.pth
+!/02_deep_learning/03_mnist_mlp/artifacts/checkpoints/from_repo_root/mnist_model.pth
+
+# Generated MLP plots; explicitly retain the two historical learning figures.
+mlp_training*.png
+!/02_deep_learning/01_mlp_and_data_loading/artifacts/figures/mlp_training_curve.png
+!/02_deep_learning/01_mlp_and_data_loading/artifacts/figures/mlp_training_multiple_batches1.png
+
+# Runtime output and temporary files (original learning exercises stay tracked).
+/runs/
+/outputs/
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Local environment secrets.
+.env
+.env.*
+!.env.example
