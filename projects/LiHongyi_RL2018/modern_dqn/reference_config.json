@@ -1,0 +1,40 @@
+{
+  "purpose": "Official HW4-2 constraints and reference values; not a training entry point",
+  "environment": {
+    "official_id": "BreakoutNoFrameskip-v4",
+    "modern_id": "ALE/Breakout-v5",
+    "seed": 42,
+    "official_test_seed": 11037,
+    "base_frameskip": 1,
+    "wrapper_frame_skip": 4,
+    "repeat_action_probability": 0.0,
+    "full_action_space": false,
+    "noop_max": 30,
+    "episodic_life_in_training_and_testing": true,
+    "fire_reset_actions": [1, 2],
+    "observation_shape": [84, 84, 4],
+    "observation_dtype": "float32",
+    "observation_range": [0.0, 1.0],
+    "reward_clipping_train": "sign after summing repeated raw-frame rewards",
+    "reward_clipping_test": false
+  },
+  "reference_hyperparameters_not_implemented": {
+    "replay_memory_size": 10000,
+    "online_update_interval_agent_steps": 4,
+    "target_update_interval_agent_steps": 1000,
+    "batch_size": 32,
+    "learning_rate": 0.00015,
+    "exploration": "epsilon-greedy, including testing",
+    "epsilon_reference_start": 1.0,
+    "epsilon_reference_end": 0.025,
+    "epsilon_decay_steps": null,
+    "gamma": null,
+    "improvement_methods_required_later": 1
+  },
+  "evaluation_not_executed": {
+    "episodes": 100,
+    "mean_unclipped_reward_strictly_greater_than": 40,
+    "episode_definition": "official test.py counts wrapper done, including EpisodicLife loss",
+    "historical_emulator_score_equivalence": "not confirmed"
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "python": "3.11.17",
+  "executable": "<conda-env>\\python.exe",
+  "versions": {
+    "torch": "2.11.0+cpu",
+    "gymnasium": "1.4.0",
+    "ale-py": "0.12.1",
+    "numpy": "2.4.6",
+    "opencv-python": "5.0.0.93",
+    "scipy": "1.17.1"
+  },
+  "tests": [
+    {
+      "name": "Pong-raw-test",
+      "game": "Pong",
+      "wrapped": false,
+      "test": true,
+      "passed": true,
+      "shape": [
+        210,
+        160,
+        3
+      ],
+      "dtype": "uint8",
+      "action_space": "Discrete(6)",
+      "action_meanings": [
+        "NOOP",
+        "FIRE",
+        "RIGHT",
+        "LEFT",
+        "RIGHTFIRE",
+        "LEFTFIRE"
+      ],
+      "steps": 1000,
+      "rewards": [
+        -1.0,
+        0.0,
+        1.0
+      ],
+      "terminated_count": 0,
+      "truncated_count": 0,
+      "render_shape": [
+        210,
+        160,
+        3
+      ]
+    },
+    {
+      "name": "Breakout-raw-test",
+      "game": "Breakout",
+      "wrapped": false,
+      "test": true,
+      "passed": true,
+      "shape": [
+        210,
+        160,
+        3
+      ],
+      "dtype": "uint8",
+      "action_space": "Discrete(4)",
+      "action_meanings": [
+        "NOOP",
+        "FIRE",
+        "RIGHT",
+        "LEFT"
+      ],
+      "steps": 1000,
+      "rewards": [
+        0.0,
+        1.0
+      ],
+      "terminated_count": 4,
+      "truncated_count": 0,
+      "render_shape": [
+        210,
+        160,
+        3
+      ]
+    },
+    {
+      "name": "Breakout-wrapped-test",
+      "game": "Breakout",
+      "wrapped": true,
+      "test": true,
+      "passed": true,
+      "shape": [
+        84,
+        84,
+        4
+      ],
+      "dtype": "float32",
+      "action_space": "Discrete(4)",
+      "action_meanings": [
+        "NOOP",
+        "FIRE",
+        "RIGHT",
+        "LEFT"
+      ],
+      "steps": 1000,
+      "rewards": [
+        0.0,
+        1.0
+      ],
+      "terminated_count": 17,
+      "truncated_count": 0,
+      "render_shape": [
+        210,
+        160,
+        3
+      ]
+    },
+    {
+      "name": "Breakout-wrapped-train-config",
+      "game": "Breakout",
+      "wrapped": true,
+      "test": false,
+      "passed": true,
+      "shape": [
+        84,
+        84,
+        4
+      ],
+      "dtype": "float32",
+      "action_space": "Discrete(4)",
+      "action_meanings": [
+        "NOOP",
+        "FIRE",
+        "RIGHT",
+        "LEFT"
+      ],
+      "steps": 1000,
+      "rewards": [
+        0.0,
+        1.0
+      ],
+      "terminated_count": 17,
+      "truncated_count": 0,
+      "render_shape": [
+        210,
+        160,
+        3
+      ]
+    },
+    {
+      "name": "Pong-official-bridge",
+      "game": "Pong",
+      "passed": true,
+      "original_template": true,
+      "max_steps": 64,
+      "algorithm": "random template",
+      "training": false
+    },
+    {
+      "name": "Breakout-official-bridge",
+      "game": "Breakout",
+      "passed": true,
+      "original_template": true,
+      "max_steps": 64,
+      "algorithm": "random template",
+      "training": false
+    },
+    {
+      "name": "forced-time-limit",
+      "passed": true,
+      "terminated": false,
+      "truncated": true
+    }
+  ],
+  "torch_cpu_ok": true,
+  "cuda_available": false,
+  "original_commit": "c41312185c4923876e55cc60fa3d8ff702cb04e6",
+  "original_git_status": "",
+  "original_clean": true,
+  "original_sha256_ok": true,
+  "passed": true
+}

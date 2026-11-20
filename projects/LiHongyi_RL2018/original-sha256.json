@@ -1,0 +1,18 @@
+{
+  "README.md": "65b9d63377c28795a23238b36bfcf0e031e072d12365a80c09d1484950d72a46",
+  "hw4/README.md": "3ff192a07d0017e7f10f25bad213c4b1ce1a5a85f59f4f164318dee3baf74eac",
+  "hw4/__pycache__/argument.cpython-36.pyc": "c27a953668e7ff89021acab6a356949185d1ded399905fa4e9e31493271594ae",
+  "hw4/__pycache__/atari_wrapper.cpython-36.pyc": "98db027f482c973c61071f93b12fa0a38f2e8596c0e1cd7ba4c1f5348f3dcdc6",
+  "hw4/__pycache__/environment.cpython-36.pyc": "b83a27d0704d6390ff6be328bc3329454f8f6a316e2ace0a0efda22f7c5d19e9",
+  "hw4/agent_dir/__pycache__/agent.cpython-36.pyc": "db00fb37d9bccadc322c8a46ed4aca8d66997edd1d5f95755f2e44368a141a8c",
+  "hw4/agent_dir/__pycache__/agent_pg.cpython-36.pyc": "2aa3cb509d9b84bdbf03eeb6b6cc5b8b725ed6e6ff575ccd14da52316ca200b3",
+  "hw4/agent_dir/agent.py": "89ac02ae1509b4d5d861e33a797909206d88fcec74f8890d2a70b8bfa2af32b6",
+  "hw4/agent_dir/agent_dqn.py": "1e847b3ec70b9415db09218b405ef33433c3d9836890cc89f2e1f92395fe8386",
+  "hw4/agent_dir/agent_pg.py": "1f4e4bab75ff488424ea253b6891a29aa68c825831422f4f1f6267977b1b49cf",
+  "hw4/argument.py": "7a337132b57d443ecabb5c4e20040be2ceb989d1700474ce5c13185a0eb8cd54",
+  "hw4/atari_wrapper.py": "73d9df5f638a1035a033157e16b26546ac05492605b54cfd32a6de2783a42573",
+  "hw4/environment.py": "f8c9de562f18f7cb8fc70b0bfecd1d4ee612f450a9de98449bc69b4300699df6",
+  "hw4/main.py": "44e5319fef179497d1688c0119e0309efeaad00397f23cc24ca1908f4c418fe8",
+  "hw4/requirement.txt": "0179461b0b8df7585dac634ce9de1c29c17fa63d164f268ab3f3ebe8838c8a15",
+  "hw4/test.py": "f41a91fb1521fbfe1c82825e52ea61394640920aa6388678c2cdb2ed2406d70c"
+}

@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-30",
+  "protected_directories": [
+    "original-2018",
+    "modern",
+    "modern_pg_improved"
+  ],
+  "files_before": 82,
+  "files_after": 82,
+  "changed_or_removed": [],
+  "added": [],
+  "protected_content_unchanged": true,
+  "official_source_sha256_matches": true,
+  "dependency_installations": false,
+  "pip_check": "No broken requirements found.",
+  "new_files": [
+    "README.md",
+    "agent_dqn.py",
+    "atari_wrapper.py",
+    "environment.py",
+    "reference_config.json",
+    "requirements-lock.txt",
+    "smoke_results.json",
+    "smoke_test.py",
+    "verification.json"
+  ]
+}

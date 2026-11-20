@@ -1,0 +1,82 @@
+{
+  "python": "3.11.17",
+  "executable": "<conda-env>\\python.exe",
+  "versions": {
+    "torch": "2.11.0+cpu",
+    "gymnasium": "1.4.0",
+    "ale-py": "0.12.1",
+    "opencv-python": "5.0.0.93",
+    "numpy": "2.4.6"
+  },
+  "tests_run": 5,
+  "passed": true,
+  "details": {
+    "synthetic_clipping": {
+      "raw_reward": 5.0,
+      "returned_reward": 1.0
+    },
+    "torch_input": {
+      "shape": [
+        1,
+        4,
+        84,
+        84
+      ],
+      "dtype": "torch.float32",
+      "passed": true
+    },
+    "reference": {
+      "passed": true,
+      "steps_per_mode": 40,
+      "modes": [
+        "train",
+        "test"
+      ],
+      "real_2018_emulator": false
+    },
+    "real_ale": {
+      "steps_per_mode": 256,
+      "seed": 42,
+      "passed": true,
+      "shape": [
+        84,
+        84,
+        4
+      ],
+      "dtype": "float32",
+      "range": [
+        0.0,
+        0.5803921818733215
+      ],
+      "action_meanings": [
+        "NOOP",
+        "FIRE",
+        "RIGHT",
+        "LEFT"
+      ],
+      "observed_raw_rewards": [
+        0.0,
+        1.0
+      ],
+      "life_ends": 6,
+      "game_ends": 1,
+      "trajectory_sha256": "c2f0decdb7953c187c96332d6a0450031d1feb991e2b3f4b3af4f39b93bacc0c",
+      "render_shape": [
+        210,
+        160,
+        3
+      ],
+      "ale_max_frames": 108000,
+      "gym_max_episode_steps": null,
+      "close_completed": true,
+      "rom": {
+        "path": "<conda-env>\\Lib\\site-packages\\ale_py\\roms\\breakout.bin",
+        "bytes": 2048,
+        "sha256": "376323f051c3c373c887fd83abead39d87d844ff283d435f4addbfc1710c6fd5"
+      }
+    }
+  },
+  "failures": [],
+  "training_executed": false,
+  "cuda_available": false
+}

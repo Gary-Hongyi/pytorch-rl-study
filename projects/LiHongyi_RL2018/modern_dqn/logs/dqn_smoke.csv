@@ -1,0 +1,3 @@
+episode,total_steps,reward,avg30,epsilon,last_loss
+1,23,0.0,,0.999977575,
+2,44,0.0,,0.9999571,0.00024780503008514643

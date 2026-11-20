@@ -1,0 +1,14 @@
+algorithm,training_steps,training_seed,test_seed,test_epsilon,episodes,reward_definition,mean100_reward,source
+DQN Baseline,500000,42,11037,0.025,100,unclipped,5.50,user-confirmed historical evaluation
+DQN Baseline,1000000,42,11037,0.025,100,unclipped,11.11,user-confirmed historical evaluation
+DQN Baseline,1250000,42,11037,0.025,100,unclipped,22.72,user-confirmed historical evaluation
+DQN Baseline,1500000,42,11037,0.025,100,unclipped,11.79,user-confirmed historical evaluation
+DQN Baseline,1750000,42,11037,0.025,100,unclipped,31.32,user-confirmed historical evaluation
+DQN Baseline,2000000,42,11037,0.025,100,unclipped,42.42,user-confirmed historical evaluation
+Double DQN,500000,42,11037,0.025,100,unclipped,5.06,user-confirmed historical evaluation
+Double DQN,1000000,42,11037,0.025,100,unclipped,12.85,user-confirmed historical evaluation
+Double DQN,1250000,42,11037,0.025,100,unclipped,22.17,user-confirmed historical evaluation
+Double DQN,1500000,42,11037,0.025,100,unclipped,31.88,user-confirmed historical evaluation
+Double DQN,1750000,42,11037,0.025,100,unclipped,42.93,user-confirmed historical evaluation
+DQN Baseline,1750000,42,2026,0.025,100,unclipped,39.97,user-confirmed historical evaluation
+Double DQN,1750000,42,2026,0.025,100,unclipped,38.88,user-confirmed historical evaluation

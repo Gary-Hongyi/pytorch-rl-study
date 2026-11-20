@@ -43,3 +43,29 @@ Thumbs.db
 .env
 .env.*
 !.env.example
+
+# Local environments, ROMs and generated training/build output.
+.conda/
+conda-meta/
+envs/
+ENV/
+roms/
+*.rom
+*.bin
+*.npz
+*.npy
+*.pkl
+*.pickle
+*.mp4
+*.avi
+*.gif
+**/checkpoints/
+**/replay_buffer/
+**/.build/
+**/.notes_build/
+**/.qa_word_build/
+# Keep official source as plain files, without nested Git metadata or cache archive.
+/projects/LiHongyi_RL2018/original-2018/.git/
+/projects/LiHongyi_RL2018/original-2018-source.zip
+# Presentation drafts are outside this code/results submission.
+/projects/LiHongyi_RL2018/presentations/

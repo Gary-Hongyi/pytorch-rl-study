@@ -1,12 +1,5 @@
-# 后续项目
+# 学习项目
 
-这里用于独立、可展示和可复现的学习项目。目前仅记录规划，不预先创建空项目目录。
+[李宏毅 MLDS 2018 HW4](LiHongyi_RL2018/README.md)：已实现 Pong Vanilla PG、带 MC 价值基线的 Actor-Critic，以及 Breakout DQN / Double DQN，并归档训练曲线和评估 CSV。
 
-| 项目 | 状态 | 计划重点 |
-| --- | --- | --- |
-| 李宏毅 RL 2018 Policy Gradient 作业 | 计划中 | 明确任务要求、实现、训练记录与实验复盘 |
-| DQN 作业 | 计划中 | 明确作业要求后开展价值方法实验 |
-
-[现有 REINFORCE 实验](../03_reinforcement_learning/02_policy_gradient/README.md) 是学习基础，不代表已完成上述作业。
-
-项目开始时，建议记录问题、方法、运行配置、随机种子、结果、失败尝试和改进方向；将整理后的项目与原始实验相互链接。可考虑复用 actor、折扣回报、评估和绘图逻辑，但本次没有抽取或修改代码。
+环境、运行限制与结果汇总见[根目录 README](../README.md)。
